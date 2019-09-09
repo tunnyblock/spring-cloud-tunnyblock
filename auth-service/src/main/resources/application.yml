@@ -8,6 +8,10 @@ spring:
     driver-class-name:  com.mysql.cj.jdbc.Driver
   application:
     name: auth-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
     
 mybatis-plus:
   type-aliases-package: cn.tunnyblock.auth.entity
