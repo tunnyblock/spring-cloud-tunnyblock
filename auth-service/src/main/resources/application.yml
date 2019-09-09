@@ -1,0 +1,19 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/tunny-block?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: passw0rd
+    driver-class-name:  com.mysql.cj.jdbc.Driver
+  application:
+    name: auth-service
+    
+mybatis-plus:
+  type-aliases-package: cn.tunnyblock.auth.entity
+  mapper-locations:
+  - classpath:mapper/xml/*.xml
+  
+logging:
+  level:
+    cn.tunnyblock.auth.mapper: DEBUG
