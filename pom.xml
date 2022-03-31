@@ -12,7 +12,7 @@
 	<description>微服务项目脚手架</description>
 
 	<properties>
-		<springboot.version>2.1.7.RELEASE</springboot.version>
+		<springboot.version>2.5.12</springboot.version>
 		<springcloud.version>Greenwich.SR2</springcloud.version>
 		<spring-platform.version>Cairo-SR8</spring-platform.version>
 		<springcloud.alibaba.version>2.1.0.RELEASE</springcloud.alibaba.version>
